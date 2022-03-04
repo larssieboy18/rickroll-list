@@ -45,7 +45,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git add .
-          git commit -m "✨ Sorted Domains automatically" -a
+          git commit -m "✨ Files sorted automatically" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
