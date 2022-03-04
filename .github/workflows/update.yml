@@ -33,11 +33,11 @@ jobs:
 
       - name: Sort responses.json
         continue-on-error: false
-        run: "jq '.responses |= (sort | unique)' responses.json > tmp-responses.json && mv tmp-responses.json responses.json"
+        run: "jq '.list |= (sort | unique)' responses.json > tmp-responses.json && mv tmp-responses.json responses.json"
 
       - name: Sort rickrolls.json
         continue-on-error: false
-        run: "jq '.domains |= (sort | unique)' rickrolls.json > tmp-rickrolls.json && mv tmp-rickrolls.json.json rickrolls.json.json"
+        run: "jq '.rickrolls |= (sort | unique)' rickrolls.json > tmp-rickrolls.json && mv tmp-rickrolls.json.json rickrolls.json.json"
 
       - name: Commit files
         continue-on-error: true
