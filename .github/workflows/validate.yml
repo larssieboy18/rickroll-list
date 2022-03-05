@@ -10,7 +10,7 @@ on:
       - main
     paths:
       - "responses.json"
-      - "rickrolls"
+      - "rickrolls.json"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,6 +34,10 @@ jobs:
       - name: Check if there is any duplicate in responses.json
         continue-on-error: false
         run: "jq '(.list | group_by(.) | map(select(length>1)) | if any == true then error(\"Found duplicates: \\(.)\") else \"OK\" end)' responses.json"
+        
+      - name: Check if there is any duplicate in responses.json
+        continue-on-error: false
+        run: "jq '(.discord | group_by(.) | map(select(length>1)) | if any == true then error(\"Found duplicates: \\(.)\") else \"OK\" end)' responses.json"
 
       - name: Check if there is any duplicate in rickrolls.json (rickrolls list)
         continue-on-error: false
