@@ -35,6 +35,10 @@ jobs:
         continue-on-error: false
         run: "jq '.list |= (sort | unique)' responses.json > tmp-responses.json && mv tmp-responses.json responses.json"
 
+      - name: Sort responses.json
+        continue-on-error: false
+        run: "jq '.discord |= (sort | unique)' responses.json > tmp-responses.json && mv tmp-responses.json responses.json"
+
       - name: Sort rickrolls.json
         continue-on-error: false
         run: "jq '.rickrolls |= (sort | unique)' rickrolls.json > tmp-rickrolls.json && mv tmp-rickrolls.json rickrolls.json"
