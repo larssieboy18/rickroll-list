@@ -211,11 +211,11 @@
     "youtube.com/watch?v=zL19uMsnpSU"
   ],
   "Sources": [
-    "https://duckduckgo.com/?q=rickroll",
-    "https://www.youtube.com/results?search_query=rickroll",
-    "https://www.youtube.com/results?search_query=never+gonna+give+you+up",
-    "https://www.reddit.com/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
-    "https://rickrolldb.com/ricklist.txt",
-    "https://brojsimpson.com/pranks/hidden-rick-roll-video-link-collection-rickrolled/"
+    "duckduckgo.com/?q=rickroll",
+    "youtube.com/results?search_query=rickroll",
+    "youtube.com/results?search_query=never+gonna+give+you+up",
+    "reddit.com/r/rickroll/comments/i4ulh0/a_long_list_of_rick_roll_links/",
+    "rickrolldb.com/ricklist.txt",
+    "brojsimpson.com/pranks/hidden-rick-roll-video-link-collection-rickrolled/"
   ]
 }
