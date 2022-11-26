@@ -45,4 +45,4 @@ jobs:
         
       - name: Check if there is any duplicate in rickrolls.json (sources)
         continue-on-error: false
-        run: "jq '(.Sources | group_by(.) | map(select(length>1)) | if any == true then error(\"Found duplicates: \\(.)\") else \"OK\" end)' rickrolls.json"
+        run: "jq '(.sources | group_by(.) | map(select(length>1)) | if any == true then error(\"Found duplicates: \\(.)\") else \"OK\" end)' rickrolls.json"
