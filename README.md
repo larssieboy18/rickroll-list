@@ -13,7 +13,7 @@ Rickrolling or a Rickroll, is an Internet meme involving pranking an unexpected 
 ©[Wikipedia](https://en.wikipedia.org/wiki/Rickrolling) *CC BY-SA 3.0*
 
 # Example
-I created a snippet on [Autocode](https://autocode.com/signup?invite_code=SauuaTKwXeytARVt) (referral link) that makes use of this repo. You can check it out [here](https://autocode.com/CreeperTown/snippets/cachsnpt_PunBXeJ68qRHxS38ZHarucyWWKJVgD3Xz5uL/). It filters out messages on [Discord](https://discord.com) that contain any of the URL's in `rickrolls.json`  and sends a random response from  `responses.json`.
+If you want an example, you can check it out [here](example.js). It filters out messages on [Discord](https://discord.com) that contain any of the URL's in `rickrolls.json`  and sends a random response from  `responses.json`. It was created using the website [Autocode](autocode.com), which has shutdown in April 2024. Feel free to use it (in accordance with the [license](LICENSE)) in your own project!
 
 # Contributors
 <a href="https://github.com/larssieboy18/rickroll-list/graphs/contributors">
