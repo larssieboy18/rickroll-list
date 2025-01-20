@@ -1,8 +1,8 @@
 # rickroll-list
-The goal of this repo is to contain a complete list of all url's that contain a Rickroll.
+The goal of this repo is to contain a complete list of all urls that contain a Rickroll.
 
 ## Rickrolls
-All known URL's that contain a "rickroll" will be listed inside `/rickrolls.json`. If there is one (or more) you would like to add, just open a PR. If the URL('s) are rickrolls, they will be added to the list. Please be sure to include the sources of any lists you used to get the links from.
+All known URLs that contain a "rickroll" will be listed inside `/rickrolls.json`. If there is one (or more) you would like to add, just open a PR. If the URL(s) are rickrolls, they will be added to the list. Please be sure to include the sources of any lists you used to get the links from.
 
 ## Responses
 Some use-cases might allow for a response to a rickroll. If you can think of any funny/clever responses, you can add them to `/responses.json`. If the response came from a third-party website, please include the source as well.
@@ -13,7 +13,7 @@ Rickrolling or a Rickroll, is an Internet meme involving pranking an unexpected 
 ©[Wikipedia](https://en.wikipedia.org/wiki/Rickrolling) *CC BY-SA 3.0*
 
 # Example
-If you want an example, you can check it out [here](example.js). It filters out messages on [Discord](https://discord.com) that contain any of the URL's in `rickrolls.json`  and sends a random response from  `responses.json`. It was created using the website [Autocode](autocode.com), which has shutdown in April 2024. Feel free to use it (in accordance with the [license](LICENSE)) in your own project!
+If you want an example, you can check it out [here](example.js). It filters out messages on [Discord](https://discord.com) that contain any of the URLs in `rickrolls.json`  and sends a random response from  `responses.json`. It was created using the website [Autocode](autocode.com), which has shutdown in April 2024. Feel free to use it (in accordance with the [license](LICENSE)) in your own project!
 
 # Contributors
 <a href="https://github.com/larssieboy18/rickroll-list/graphs/contributors">
